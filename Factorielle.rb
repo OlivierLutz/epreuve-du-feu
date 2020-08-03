@@ -18,4 +18,4 @@ while c > 0
 	y +=1
 	c -=1
 end
-print x
+print x.to_s.gsub(/(\d{3})/,'\1,')

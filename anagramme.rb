@@ -17,3 +17,6 @@ while b < lines.size
 	somme = 0
 	b +=1
 end
+
+
+print "special arbre".split('').sort.join('')
